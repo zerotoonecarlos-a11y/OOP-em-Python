@@ -29,9 +29,6 @@ class produto:
         print(f"Produto: {self.nome}")
 
 
-
-
-
 class pedido:
     def __init__(self, cliente, produto, gerar_pedido):
         self.cliente = cliente
